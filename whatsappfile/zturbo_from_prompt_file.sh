@@ -5,7 +5,7 @@ set -euo pipefail
 # Usage: zturbo_from_prompt_file.sh [target_chat]
 
 TARGET_CHAT="${1:-+61452044218}"
-PROMPT_FILE="/home/node/.openclaw/workspace/whatsappfile/prompt_store.txt"
+PROMPT_FILE="/home/node/.openclaw/workspace/prompt.txt"
 CHANNEL="${OPENCLAW_CHANNEL:-whatsapp}"
 
 : "${FAL_KEY:?FAL_KEY is required}"

@@ -6,7 +6,7 @@ const path = require('path');
 const PORT = Number(process.env.PORT || process.argv[2] || 8788);
 const HOST = process.env.HOST || '0.0.0.0';
 const ROOT = path.resolve(__dirname, '..');
-const PROMPT_FILE = path.join(ROOT, 'prompt_store.txt');
+const PROMPT_FILE = path.join('/home/node/.openclaw/workspace', 'prompt.txt');
 const INDEX_FILE = path.join(__dirname, 'index.html');
 
 function readPrompt() {
